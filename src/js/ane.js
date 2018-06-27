@@ -1,6 +1,7 @@
 // 海葵类
 
 // 依赖 global
+var global = require('./global');
 
 var ctx2 = global.ctx2;
 var canHei = global.canHei;
@@ -41,3 +42,5 @@ Ane.prototype.drawAne = function(){
   }
   ctx2.restore();
 }
+
+module.exports = Ane;

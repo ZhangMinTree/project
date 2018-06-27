@@ -1,6 +1,7 @@
 // 大鱼吃果实波浪类
 
 // 依赖 global
+var global = require('./global');
 
 var ctx1 = global.ctx1;
 var canWid = global.canWid;
@@ -53,3 +54,5 @@ Wave.prototype.born = function(index){     //出生一个圆圈。
     }
   }
 }
+
+module.exports = Wave;
